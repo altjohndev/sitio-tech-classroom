@@ -1,0 +1,99 @@
+# Hello World: Exercícios
+
+## Enunciado do desafio: Contatos
+
+Desenvolva os seguintes requisitos no campo de código abaixo:
+
+* [ ] No _fork_, salve o arquivo com o seu nome (`snake_case`) no diretório `/data/books/lectures/hello_world/`
+
+* [ ] Crie um módulo `Contacts`
+
+  * [ ] Crie a função `create/4`
+
+    * Com os seguintes parâmetros
+      * `contacts` (`map`): O _map_ de contatos
+      * `id` (`integer`): Identificador único do contato
+      * `name` (`string`): Nome do contato
+      * `phone` (`string`): Telefone do contato
+    * A função deve criar um _map_ com os pares chave-valor de `name` e `phone` e adicionar no `contacts` com a chave `id`
+    * A função deve retornar o `contacts` atualizado
+
+  * [ ] Crie a função `read/2`
+
+    * Com os seguintes parâmetros
+      * `contacts` (`map`): O _map_ de contatos
+      * `id` (`integer`): Identificador único do contato
+    * Deve informar o nome e o telefone do contato, se existir
+    * Deve informar que não encontrou o contato, se não existir
+    * A função deve retornar o `contacts`
+
+  * [ ] Crie a função `update/4`
+
+    * Com os seguintes parâmetros
+      * `contacts` (`map`): O _map_ de contatos
+      * `id` (`integer`): Identificador único do contato
+      * `key` (`atom`): Identificador do campo que deve ser atualizado
+        * Valores possíveis: `:name`, `:phone`
+        * Deve informar que o identificador do campo é inválido se não for um dos valores acima
+      * `value` (`string`): Valor a ser atualizado do campo identificado por `key`
+    * Deve atualizar o valor do campo de acordo com `key`com o valor de `value`, se contato de `id` existir e for um `key` válido
+    * Se o contato de `id` não existir, deve informar que não encontrou o contato
+    * A função deve retornar o `contacts` atualizado
+
+  * [ ] Crie a função `delete/2`
+
+    * Com os seguintes parâmetros
+      * `contacts` (`map`): O _map_ de contatos
+      * `id` (`integer`): Identificador único do contato
+    * Deve informar o nome e o telefone do contato, se existir
+    * Deve informar que não encontrou o contato, se não existir
+    * Se contato existir, este deve ser removido do `contacts`
+    * A função deve retornar o `contacts` atualizado
+
+* [ ] Escreva ao menos 3 _pipelines_ distintos utilizando o módulo criado
+
+* [ ] Chame a função `validate_contacts/1` com o valor `Contacts` como único parâmetro.
+
+  * A saída deve ser:
+
+    ```elixir
+    %{6 => %{name: "Yoko", phone: "99994-1116"}, 10 => %{name: "John", phone: "98765-4321"}}
+    ```
+
+* [ ] Chame a função `result_valid?/1` com o resultado da função `validate_contacts/1` como parâmetro.
+
+  * A saída deve ser:
+
+    ```elixir
+    true
+    ```
+
+## Importação das funções de validação
+
+```elixir
+# Não modifique nada aqui
+
+import SitioTechClassroom.Lectures.HelloWorld, only: [validate_contacts: 1, result_valid?: 1]
+
+:ok
+```
+
+## Sua implementação da solução
+
+```elixir
+# Escreva aqui seu código
+```
+
+## Validação
+
+```elixir
+# Não modifique nada aqui, execute-o para validar seu código
+
+result = validate_contacts(Contacts)
+```
+
+```elixir
+# Não modifique nada aqui, execute-o para validar seu código
+
+result_valid?(result)
+```

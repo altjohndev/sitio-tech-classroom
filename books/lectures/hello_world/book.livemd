@@ -1,0 +1,72 @@
+# Hello World: Aula inicial
+
+## Variáveis e seus tipos
+
+```elixir
+
+```
+
+## Pattern matching
+
+```elixir
+
+```
+
+## Funções
+
+```elixir
+
+```
+
+## Pipe operator
+
+```elixir
+
+```
+
+## Módulos
+
+```elixir
+
+```
+
+## Entrada e saída
+
+```elixir
+
+```
+
+## Arquivos
+
+```elixir
+
+```
+
+## Módulos nativos
+
+## Backlog
+
+### _Backlog_ compartilhado
+
+* [ ] Adicionar ao menos dez referências sobre os tópicos acima neste _book_
+* [ ] Pesquisar sobre o formato `CSV` e gerar um novo _book_ no diretório `/data/books/library`
+* [ ] Pesquisar sobre o formato `JSON` e gerar um novo _book_ no diretório `/data/books/library`
+* [ ] Pesquisar sobre o formato `YAML` e gerar um novo _book_ no diretório `/data/books/library`
+* [ ] Pesquisar sobre estruturas condicionais e gerar um novo _book_ no diretório `/data/books/library`
+* [ ] Pesquisar sobre estruturas de repetição e gerar um novo _book_ no diretório `/data/books/library`
+* [ ] Pesquisar sobre recursão e gerar um novo _book_ no diretório `/data/books/library`
+
+### _Backlog_ individual
+
+* [ ] Fazer um _fork_ do _book_ `/data/books/lectures/hello_world/exercicios.livemd` neste diretório e resolver os exercícios
+* [ ] Pesquisar sobre o módulo `Enum` do Elixir
+* [ ] Pesquisar sobre o módulo `Map` do Elixir
+* [ ] Pesquisar sobre o módulo `Keyword` do Elixir
+* [ ] Pesquisar sobre o módulo `File` do Elixir
+* [ ] Pesquisar sobre _structs_ em Elixir
+* [ ] Pesquisar sobre _typespecs_ do Elixir
+* [ ] Pesquisar sobre documentação de código
+
+## Referências
+
+* [Site oficial do Elixir](https://elixir-lang.org/)
